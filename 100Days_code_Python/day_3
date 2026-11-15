@@ -1,0 +1,50 @@
+# Conditional Statement
+
+# correct Email : Aniket@gmail.com
+# Password: 1234
+
+# Email = input('Enter your email here: ')
+# Password = input('Enter your Password here: ')
+# if Email == "Aniket@gmail.com" and Password == '1234':
+#     print('Welcome to sunshine')
+# else:
+#     print("Entered the wrong details")
+
+
+#  level 2
+
+# Email = input('Enter your email here: ')
+# Password = input('Enter your Password here: ')
+# if Email == "Aniket@gmail.com" and Password == '1234':
+#     print('Welcome to sunshine')
+# elif Email == "Aniket@gmail.com" and Password != '1234':
+#     print('Enter the right Password')
+#     password = input("Enter your Password again here: ")
+#     if password == '1234':
+#         print('You got that right' 
+#         ' Welcome to Sunshine')  
+#     else:
+#         print("Start form the Stratch")
+# else:
+#     print("Entered the wrong details")
+
+# level 3
+
+Email = input('Enter your email here: ')
+if '@' in Email:
+    Password = input('Enter your Password here: ')
+    if Email == "Aniket@gmail.com" and Password == '1234':
+        print('Welcome to sunshine')
+    elif Email == "Aniket@gmail.com" and Password != '1234':
+        print('Enter the right Password')
+        password = input("Enter your Password again here: ")
+        if password == '1234':
+            print('You got that right' 
+            ' Welcome to Sunshine')  
+        else:
+            print("Start form the Stratch")
+    else:
+        print("Entered the wrong details")
+else:
+    print("You enter the wrong Email")
+            
